@@ -12,6 +12,7 @@ def homepage(request):
 			context = {"tutorials": Tutorial.objects.all}
 		)
 
+
 def register(request):
 	
 
